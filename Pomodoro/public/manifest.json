@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Locked In",
+    "version": "1.0.0",
+    "icons": {
+        "32": "images/clock.png",
+        "48": "images/clock.png"
+      },
+
+    "action": {   
+        "default_popup": "index.html"
+      },
+
+      "permissions":[
+        "scripting",
+        "notifications"
+      ],
+      "host_permissions":[
+        "http://*/*",
+        "https://*/*"
+      ]
+
+}
